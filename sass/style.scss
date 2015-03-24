@@ -4,7 +4,7 @@
 
 $font-color: black;
 $font-size: 4em;
-$font-weight: 700;
+$font-weight: 500;
 
 html {
     font-size:62.5%;
@@ -14,7 +14,7 @@ html {
 		h1 {
 			text-align: center;
 			color: white;
-			font-size: 3em;
+			font-size: 2.5em;
 			font-weight:$font-weight;
 			font-family:sans-serif;
 
@@ -22,8 +22,8 @@ html {
 		h2 {
 			text-align: center;
 			color: white;
-			font-size: 2em;
-			font-weight: 600;
+			font-size: 15px;
+			font-weight: 300;
 			font-family:sans-serif;
 		}
 		.container {
@@ -99,7 +99,17 @@ html {
 			}
 			.center-form{
 				text-align: center;
-				margin-top: -28em;
+				margin-top: -30em;
+
+				input[type='text'] {
+					width:250px;
+					height:20px;
+				}
+				input[type='button']{
+					background: Gainsboro;
+					height:27px;
+					width: 80px;
+				}
 			}
 
 		}
