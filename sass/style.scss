@@ -13,11 +13,18 @@ html {
 		margin: 0 auto;
 		h1 {
 			text-align: center;
-			margin: -3em auto;
-			color: $font-color;
-			font-size: $font-size;
+			color: white;
+			font-size: 3em;
 			font-weight:$font-weight;
+			font-family:sans-serif;
 
+		}
+		h2 {
+			text-align: center;
+			color: white;
+			font-size: 2em;
+			font-weight: 600;
+			font-family:sans-serif;
 		}
 		.container {
 				width: 90%;
@@ -54,19 +61,24 @@ html {
 				background-image: url(../res/pic1.jpg);
 				margin: auto;
 				background-repeat: no-repeat;
-				background-position: center top;
-
+				/*background-position: center top;*/
+				
 				.topheader{
-					width: 356px;
-  					height: 30px;
-  					float: right;
-  					margin-top: 20px;
+					width: 100%;
   					text-align: center;
   					font-family: sans-serif;
-
+  					div {
+  						float: right;
+  					}
+  					
+					&:after {
+						content:"";
+						display: block;
+						clear:both;
+					}
 					.top-text{
 						color:#F1F0ED;
-						float: left;
+						
 						margin: 10px;
 						font-size: 15px;
 						padding:4px;
@@ -76,6 +88,18 @@ html {
 					}
 
 				}
+
+				.title {
+					h1 {
+						width:100%;
+						text-align: center;
+						margin-top: 4em;
+					}
+				}
+			}
+			.center-form{
+				text-align: center;
+				margin-top: -28em;
 			}
 
 		}

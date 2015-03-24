@@ -75,18 +75,26 @@ html body {
 /* line 14, ../sass/style.scss */
 html body h1 {
   text-align: center;
-  margin: -3em auto;
-  color: black;
-  font-size: 4em;
+  color: white;
+  font-size: 3em;
   font-weight: 700;
+  font-family: sans-serif;
 }
 /* line 22, ../sass/style.scss */
+html body h2 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+/* line 29, ../sass/style.scss */
 html body .container {
   width: 90%;
   margin: auto;
   padding-top: 55px;
 }
-/* line 26, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 html body .container .menu {
   width: 100%;
   height: 30px;
@@ -94,7 +102,7 @@ html body .container .menu {
   border-radius: 10px 10px 0 0;
   padding-top: 10px;
 }
-/* line 32, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 html body .container .menu .ball {
   height: 16px;
   width: 16px;
@@ -103,46 +111,63 @@ html body .container .menu .ball {
   float: left;
   margin: 2px;
 }
-/* line 40, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 html body .container .menu .red {
   background-color: red;
   margin-left: 13px;
 }
-/* line 44, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 html body .container .menu .yellow {
   background-color: orange;
 }
-/* line 47, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 html body .container .menu .green {
   background-color: green;
 }
-/* line 51, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 html body .container .header {
   width: 100%;
   height: 500px;
   background-image: url(../res/pic1.jpg);
   margin: auto;
   background-repeat: no-repeat;
-  background-position: center top;
+  /*background-position: center top;*/
 }
-/* line 59, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 html body .container .header .topheader {
-  width: 356px;
-  height: 30px;
-  float: right;
-  margin-top: 20px;
+  width: 100%;
   text-align: center;
   font-family: sans-serif;
 }
-/* line 67, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
+html body .container .header .topheader div {
+  float: right;
+}
+/* line 74, ../sass/style.scss */
+html body .container .header .topheader:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* line 79, ../sass/style.scss */
 html body .container .header .topheader .top-text {
   color: #F1F0ED;
-  float: left;
   margin: 10px;
   font-size: 15px;
   padding: 4px;
 }
-/* line 74, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 html body .container .header .topheader .signup {
   border: 1px solid;
+}
+/* line 93, ../sass/style.scss */
+html body .container .header .title h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 4em;
+}
+/* line 100, ../sass/style.scss */
+html body .container .center-form {
+  text-align: center;
+  margin-top: -28em;
 }
